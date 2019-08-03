@@ -6,7 +6,7 @@ public class StrategyDemo {
 		CreditCard amexCard = new CreditCard(new AmexStrategy());
 		
 		amexCard.setNumber("379185883464283");
-		amexCard.setDate("04/2020");
+		amexCard.setDate("04/2017");
 		amexCard.setCvv("123");
 		
 		System.out.println("Is Amex valid: " + amexCard.isValid());
