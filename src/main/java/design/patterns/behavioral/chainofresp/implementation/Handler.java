@@ -6,7 +6,7 @@ public abstract class Handler {
 	
 	public Handler setSuccessor(Handler successor) {
 		this.successor = successor;
-		return this;
+		return successor;
 	}
 	
 	public abstract void handleRequest(Request request);
